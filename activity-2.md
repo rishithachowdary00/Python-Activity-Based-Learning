@@ -28,7 +28,7 @@ flowchart TD
     F --> G
     G --> H[/Display salary details/]
     H --> I([Stop])
-
+```
 ## 4. Source Code
 
 basic = float(input("Enter basic salary: "))allow = float(input("Enter allowances: "))ot = float(input("Enter overtime: "))bonus = float(input("Enter incentives: "))gross = basic + allow + ot + bonustax = gross * 0.05 if gross <= 20000 else gross * 0.10pf = basic * 0.12deduction = tax + pfnet = gross - deductionprint("Gross:", gross)print("Deductions:", deduction)print("Net Salary:", net)

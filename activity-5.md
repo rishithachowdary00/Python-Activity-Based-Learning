@@ -24,12 +24,6 @@ flowchart TD
     E --> F([Stop])
 ```
 
-## 4. Source Code
-
-
-# Bus Passenger Occupancypassengers = 0for stop in range(3):    board = int(input("Passengers boarding: "))    leave = int(input("Passengers leaving: "))    passengers = passengers + board - leaveprint("Total passengers:", passengers)
-
-
 ## 5. Sample Input
 
 
